@@ -1,6 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;500&display=swap');
+
+.font-montserrat-sb-italic {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; /* Semibold */
+  font-style: italic;
+}
+
+.text-32 {
+  font-size: 32px;
+}
 
 .shadow-custom {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -11,4 +22,5 @@
   height: 70%;;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.30);
 }
+
 
