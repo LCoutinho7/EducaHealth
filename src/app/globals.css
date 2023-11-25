@@ -3,6 +3,34 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;500&display=swap');
 
+.login-suc{
+  @apply bg-green-500 text-green-700 border border-green-700 text-center text-3xl p-5;
+}
+
+.login-err{
+  @apply bg-red-500 text-red-700 border border-red-700 text-center text-3xl p-5;
+}
+
+.login{
+  @apply hidden;
+}
+
+.card-user{
+  @apply flex flex-wrap;
+
+  & li{
+      @apply p-5 m-5  bg-red-400 w-40;
+
+      & img{
+          @apply block m-auto;
+      }
+
+      & figcaption{
+          @apply text-center font-bold text-xl;
+      }
+  }
+}
+
 .font-montserrat-sb-italic {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600; /* Semibold */

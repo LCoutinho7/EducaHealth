@@ -8,7 +8,7 @@ export default function Cabecalho() {
     return (
       
       <header className="bg-009ff7 text-white shadow-lg text-center">
-
+        <Image src="/user.png" alt="User" width={40} height={40}/>
       </header>
     );
   } else {
