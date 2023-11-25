@@ -1,0 +1,40 @@
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 180px);
+}
+
+.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 300px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    padding: 16px;
+    gap: 8px;
+}
+
+
+.cadastro {
+    text-align: center;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 8px;
+    padding: 4px 0;
+}
+.cadastro:hover{
+    background-color: rgb(85, 85, 85);
+    color: white;
+    cursor: pointer;
+}
